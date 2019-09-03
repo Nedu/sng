@@ -1,0 +1,25 @@
+body {
+    max-width: 1180px;
+    width: 98%;
+    margin: 0px auto;
+    background-color: #eee;
+}
+
+body > div {
+    padding: 2em;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header img {
+    border-radius: 50%;
+}
+
+header span {
+    font: 200;
+    font-style: italic;
+}
